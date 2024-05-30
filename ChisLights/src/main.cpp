@@ -1,18 +1,13 @@
 #include <Arduino.h>
-
-// put function declarations here:
-int myFunction(int, int);
-
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+#include "global_includes.h"
+#include "OS/OSThreadKernel.h"
+void setup()
+{
+    threads_init();
+    threads_list_init();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void loop()
+{
+    os_thread_delay_s(20);
 }

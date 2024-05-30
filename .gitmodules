@@ -13,6 +13,9 @@
 [submodule "ChisLights/src/TeensyOSCSAL"]
 	path = ChisLights/src/TeensyOSCSAL
 	url = git@github.com:william-redenbaugh/TeensyOSCSAL.git
-[submodule "ChisLights/lib/FastLED"]
-	path = ChisLights/lib/FastLED
-	url = git@github.com:FastLED/FastLED.git
+[submodule "ChisLights/src/WillOS"]
+	path = ChisLights/src/WillOS
+	url = git@github.com:william-redenbaugh/WillOS.git
+[submodule "ChisLights/lib/SSD1734ArduinoDriver"]
+	path = ChisLights/lib/SSD1734ArduinoDriver
+	url = git@github.com:william-redenbaugh/SSD1734ArduinoDriver.git
