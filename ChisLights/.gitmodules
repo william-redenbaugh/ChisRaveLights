@@ -1,0 +1,18 @@
+[submodule "lib/WillOS"]
+	path = lib/WillOS
+	url = git@github.com:william-redenbaugh/WillOS.git
+[submodule "src/ArduinoCHAL"]
+	path = src/ArduinoCHAL
+	url = git@github.com:william-redenbaugh/ArduinoCHAL.git
+[submodule "src/CHAL_SHARED"]
+	path = src/CHAL_SHARED
+	url = git@github.com:william-redenbaugh/CHAL_SHARED.git
+[submodule "src/CSAL_SHARED"]
+	path = src/CSAL_SHARED
+	url = git@github.com:william-redenbaugh/CSAL_SHARED.git
+[submodule "src/TeensyOSCSAL"]
+	path = src/TeensyOSCSAL
+	url = git@github.com:william-redenbaugh/TeensyOSCSAL.git
+[submodule "lib/FastLED"]
+	path = lib/FastLED
+	url = git@github.com:FastLED/FastLED.git
